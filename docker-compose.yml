@@ -1,8 +1,8 @@
 services:
   postgres:
-    container_name: sungwoo_postgres
+    container_name: kangho_postgres
     image: postgres:latest
     ports:
-      - "5432:5432"
+      - "0987:5432"
     env_file:
       - .env
